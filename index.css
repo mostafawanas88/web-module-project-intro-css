@@ -19,55 +19,41 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
+/* main document - body and HTML */
 html {
     font-size: 62.5%;
 }
 
 * {
     box-sizing: border-box;
-    width: auto;
+    width: 100%;
 }
 
 body {
     width: 50%;
     margin: auto;
+    height: 100%;
 }
+/* main document - body and HTML */
 
 
-h1 {
-    font-family: 'Chelsea Market', cursive;
+/* styling for the navigation */
+a {
+    margin: 2%;
+    border: 1px solid lightgray;
+    padding: 3%;
+    display: inline-block;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
     font-size: 2rem;
-}
-
-p {
-    font-family: "Roboto Mono", monospace;
-    font-size: 1.5rem;
-}
-
-.content {
+    margin-bottom: 70px;
+    margin-top: 30px;
+    width: 28%;
     text-align: center;
+    max-width: 60%;
 }
-
-.navigation nav a {
-    margin: 0 10px;
-    border: 1px solid lightgray;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 20px;
-    color: white;
-    font-size: 0.5rem;
-}
-
-.navigation2 nav a {
-    margin: 0 10px;
-    border: 1px solid lightgray;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 20px;
-    color: white;
-    font-size: 0.5rem;
-}
-
 .plan {
     background-color: #FF764E;
 }
@@ -79,42 +65,94 @@ p {
 .involve {
     background-color: #FFCD69;
 }
+/* styling for the navigation */
+
+
+/* FIRST SECTION + IMAGE */
+
+header {
+    display: inline-block;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border: 0%;
+}
+
+.text-container {
+    margin-left: 35%;
+    width: 50%;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+.website-intro img {
+    border-radius: 50%;
+    max-width: 25%;
+    border: 2px
+}
+/* FIRST SECTION + IMAGE */
+
 
 .main-text {
     background-color: #DDB9A3;
     color: white;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
 }
 
-#national-park-pic {
-    border-radius: 50%;
-    max-width: 10%;
-    height: auto;
+.content {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .website-intro {
-    padding: 20px 40px 40px;
-    max-width: 
-} */
+.content div {
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
 
 #fire {
-    max-width: 10%;
+    max-width: 20%;
 }
 
 #car {
-    max-width: 10%;
+    max-width: 20%;
 }
 
+p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+p span {
+    font-weight: bolder;
+}
 #footer-image {
-    max-width: 100%;
+    max-width: auto;
     margin: auto;
 }
 
-#footer-nav {
-    margin: 0 10px;
-    border: 1px solid lightgray;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 20px;
-    color: white;
-    font-size: 0.5rem;
+footer {
+    width: 100%;
+    background-color: #F9E7DC;
+    margin: 0 auto;
 }
