@@ -19,3 +19,40 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+* {
+    font-family: roboto; 
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: Chelsea Market;
+}
+
+.navigation nav a {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+}
+
+.navigation nav a #plan {
+    background-color: #FF764E;
+}
+
+.navigation nav a #learn {
+    background-color: #5ED3EB;
+}
+
+.navigation nav a #involved {
+    background-color: #FFCD69;
+}
+
+.main-text {
+    color: #DDB9A3;
+}
+
