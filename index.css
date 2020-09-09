@@ -19,16 +19,33 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-* {
-    font-family: roboto; 
-}
-
 html {
     font-size: 62.5%;
 }
 
+* {
+    box-sizing: border-box;
+    width: auto;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+
 h1 {
-    font-family: Chelsea Market;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.5rem;
+}
+
+.content {
+    text-align: center;
 }
 
 .navigation nav a {
@@ -38,21 +55,66 @@ h1 {
     display: inline-block;
     border-radius: 20px;
     color: white;
+    font-size: 0.5rem;
 }
 
-.navigation nav a #plan {
+.navigation2 nav a {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.5rem;
+}
+
+.plan {
     background-color: #FF764E;
 }
 
-.navigation nav a #learn {
+.learn {
     background-color: #5ED3EB;
 }
 
-.navigation nav a #involved {
+.involve {
     background-color: #FFCD69;
 }
 
 .main-text {
-    color: #DDB9A3;
+    background-color: #DDB9A3;
+    color: white;
 }
 
+#national-park-pic {
+    border-radius: 50%;
+    max-width: 10%;
+    height: auto;
+}
+
+/* .website-intro {
+    padding: 20px 40px 40px;
+    max-width: 
+} */
+
+#fire {
+    max-width: 10%;
+}
+
+#car {
+    max-width: 10%;
+}
+
+#footer-image {
+    max-width: 100%;
+    margin: auto;
+}
+
+#footer-nav {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.5rem;
+}
